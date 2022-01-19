@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily":  "'JetBrainsMono Nerd Font Mono' ,'FiraCode Nerd Font Mono', monospace",
+    "editor.fontLigatures": "'ss04', 'ss06', 'zero'",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.hotExit": "onExit",
+    "explorer.openEditors.visible": 0,
+    "timeline.showView": false,
+    "zenMode.centerLayout": true,
+    "files.autoSave": "off",
+    // "files.autoSaveDelay": 2000,
+    "window.zoomLevel": 2,
+}

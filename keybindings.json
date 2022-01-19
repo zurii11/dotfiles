@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    {"key": "ctrl+0",                "command": "workbench.action.zoomReset"},
+    
+    {"key": "ctrl+shift+=",          "command": "editor.action.fontZoomIn",
+                                     "when": "editorTextFocus"              },
+    
+    {"key": "ctrl+shift+-",          "command": "editor.action.fontZoomOut",
+                                     "when": "editorTextFocus"              },
+    
+    {"key": "ctrl+shift+0",          "command": "editor.action.fontZoomReset",
+                                     "when": "editorTextFocus"              },
+    
+    {"key": "ctrl+'",                "command": "cursorLineEnd",
+                                     "when": "editorTextFocus"              },
+    
+    {"key": "ctrl+;",                "command": "cursorLineStart",
+                                     "when": "editorTextFocus"              },
+    ]
