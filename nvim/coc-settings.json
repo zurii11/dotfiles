@@ -1,0 +1,20 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        },
+        "zls": {
+            "command": "~/zls/zls",
+            "filetypes": ["zig"]
+        }
+    },
+
+    "explorer.width": 30,
+    "explorer.previewAction.onHover": false,
+    "explorer.keyMappings.global": {
+        "<cr>": ["expandable?", "expand", "open"],
+        "v": "open.split"
+    }
+}
